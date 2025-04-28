@@ -1,7 +1,12 @@
 [project]
-name = "text"
+name = "PYTORCHREVISE"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+]
